@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(246, 217, 217);
+    color: rgb(0, 0, 0);
+}
+table{
+    width: 100%;
+}
+
+th,td{
+    border:5px double black;
+    border-collapse: collapse;
+    border-radius:10px ;
+    border-spacing: 30px;
+}
+th{
+    background-color: brown;
+
+}
+td{
+    background-color: aquamarine;
+}

@@ -1,0 +1,25 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(252, 255, 156);
+}
+
+ul{
+    background-color: #142466;
+    height: 40px;
+}
+
+li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+        color: white;
+
+} */
