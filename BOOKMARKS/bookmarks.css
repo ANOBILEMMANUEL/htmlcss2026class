@@ -1,0 +1,50 @@
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box; 
+}
+
+ 
+header{
+    background-color: rgb(48, 254, 55);
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+      list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(190, 136, 187);
+}
+
+p{
+    text-align: justify;
+    width: 70%;
+    margin:auto;
+    
+}
+section{
+    margin: 20px;
+}
+
+.sec1{
+    background-color: rgb(244, 214, 177);
+}
+.sec2{
+    background-color: rgb(204, 174, 136);
+}
+.sec3{
+    background-color: rgb(140, 123, 102);
+}
+.sec4{
+    background-color: rgb(85, 66, 43);
+}
