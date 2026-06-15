@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in HTML</title>
+    <base href="https://www.youtube.com/embed/">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <button onclick="document.body.style.backgroundColor='red'">Change body color</button>
+    <button onclick="alert('HELLO EVERYONE')">Alert</button>
+    <button onclick="prompt('Are you from Earth?')">Prompt</button>
+    <button onclick="confirm('You are from Earth!')">Confirm</button>
+    <button onclick="console.log('Hello World')">Console Log</button>
+
+    <button onclick="changedivbac()">change div background</button>
+
+
+    <div id="myDiv" style="width: 200px; height: 200px; background-color: gray; margin-top: 20px;">
+        <h1 id="tochange">Hello World</h1>
+    </div>
+    
+    <script>
+    let myDiv = document.getElementById('myDiv');
+    let tochange = document.getElementById('tochange');
+    function changedivbac(){
+        myDiv.style.backgroundColor = 'blue';
+        tochange.innerHTML = '<h3>HELLO Godswill</h3>';
+    }
+
+    </script>
+</body>
+</html>
