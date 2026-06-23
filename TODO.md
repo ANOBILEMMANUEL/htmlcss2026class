@@ -1,0 +1,3 @@
+- [ ] Update `HTMLFORMS/index.html` with modern internal CSS styling (card layout, inputs/buttons/select alignment).
+- [ ] Wrap fields into rows (label + input) for consistent spacing.
+- [ ] Verify the HTML renders correctly and remains functional (submit/reset still work).
