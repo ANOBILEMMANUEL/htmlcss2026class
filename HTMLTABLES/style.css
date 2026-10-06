@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,4 +24,19 @@ th{
 }
 td{
     background-color: aquamarine;
+} */
+
+
+
+/* table,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;  
 }
+/* tr:nth-child(odd){
+background-color: magenta;
+} */
+
+/* td:nth-child(even), th:nth-child(even) {
+  background-color: #6bd6d6;
+} */ */
+
