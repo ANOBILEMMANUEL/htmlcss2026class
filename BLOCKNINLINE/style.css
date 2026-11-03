@@ -1,0 +1,44 @@
+div{
+    /* display: inline-block; */
+    background-color: red;
+    padding: 10px;
+}
+h1,p{
+    text-align: center;
+    color: aliceblue;
+}
+section{
+    display: grid;
+grid-template-columns: 40% 40%;}
+
+.me{
+    background-color: rgb(0, 0, 0);
+    color: rgb(12, 72, 123);
+  
+}
+
+.you{
+    background-color: rgb(136, 5, 114);
+}
+
+.click{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}  
+
+.hey{
+    background-color: rgb(21, 168, 19);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+.come{
+width:150px;}
+
+#button3:hover{
+    background-color: rgb(105, 62, 62);
+    color: rgb(72, 2, 34);
+
+}
